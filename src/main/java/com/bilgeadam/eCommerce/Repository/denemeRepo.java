@@ -1,11 +1,8 @@
-package Repository;
+package com.bilgeadam.eCommerce.Repository;
 
-import Model.deneme;
-import org.springframework.jdbc.core.RowMapper;
+import com.bilgeadam.eCommerce.Model.deneme;
 import org.springframework.stereotype.Repository;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +14,7 @@ public class denemeRepo {
     public List<deneme> getAllUsersRepository() {
         List<deneme> liste = new ArrayList<deneme>();
 
-        deneme deneme = new deneme(1L, "hamit");
+        deneme deneme = new deneme(1L, "servet");
         liste.add(deneme);
 
         return liste;

@@ -1,7 +1,7 @@
-package Controller;
+package com.bilgeadam.eCommerce.Controller;
 
-import Model.deneme;
-import Service.denemeServicwe;
+import com.bilgeadam.eCommerce.Model.deneme;
+import com.bilgeadam.eCommerce.Service.denemeServicwe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "movies")
+@RequestMapping(value = "deneme")
 public class DenemeController {
 
 

@@ -1,4 +1,4 @@
-package Model;
+package com.bilgeadam.eCommerce.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
